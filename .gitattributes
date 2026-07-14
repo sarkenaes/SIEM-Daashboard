@@ -1,3 +1,5 @@
-# Ignore vendor/frontend directories from language statistics
-frontend/* linguist-documentation
-node_modules/* linguist-vendored
+# Vendor all frontend assets globally across the entire repository
+**/*.js linguist-vendored
+**/*.jsx linguist-vendored
+**/*.css linguist-vendored
+**/*.html linguist-vendored

@@ -1,0 +1,3 @@
+# Ignore vendor/frontend directories from language statistics
+frontend/* linguist-documentation
+node_modules/* linguist-vendored

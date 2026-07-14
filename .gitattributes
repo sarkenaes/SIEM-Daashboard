@@ -1,5 +1,1 @@
-# Vendor all frontend assets globally across the entire repository
-**/*.js linguist-vendored
-**/*.jsx linguist-vendored
-**/*.css linguist-vendored
-**/*.html linguist-vendored
+frontend/src/** linguist-vendored
